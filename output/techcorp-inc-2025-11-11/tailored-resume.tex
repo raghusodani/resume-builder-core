@@ -1,0 +1,127 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{left=1.25cm,right=1.25cm,top=1.25cm,bottom=1cm}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\definecolor{IFBlue}{HTML}{0F6688}
+\definecolor{IFDarkBlue}{HTML}{00425C}
+
+\hypersetup{colorlinks=true, urlcolor=IFDarkBlue, pdfborder={0 0 0}}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Custom commands
+\newcommand{\namesection}[2]{
+    \begin{center}
+        {\Huge\textbf{#1}}\\[0.3em]
+        {\large\textit{#2}}
+    \end{center}
+    \vspace{0.5em}
+}
+
+\newcommand{\contactinfo}[1]{
+    \begin{center}
+        #1
+    \end{center}
+    \vspace{1em}
+}
+
+\newcommand{\sectiontitle}[1]{
+    \vspace{0.8em}
+    {\Large\textbf{\color{IFBlue}#1}}
+    \vspace{0.3em}
+    \hrule
+    \vspace{0.5em}
+}
+
+\newcommand{\experience}[4]{
+    \textbf{#1} \hfill #3\\
+    \textit{#2}
+    #4
+    \vspace{0.5em}
+}
+
+\begin{document}
+
+\namesection{Raghu Raj Sodani}{Senior Frontend Engineer specializing in React, TypeScript, and GraphQL-driven web applications}
+
+\contactinfo{
+    sodaniraghuraj@gmail.com $\cdot$ +91-9928486320 $\cdot$ 
+    \href{https://www.linkedin.com/in/raghu-raj-sodani/}{LinkedIn: raghusodani} $\cdot$ 
+    \href{https://github.com/raghusodani}{GitHub: raghusodani}
+}
+
+\sectiontitle{Experience}
+
+\experience{Software Development Engineer}{Amazon -- Identity Services / CS Stores Fixed Corporate}{May 2024 - now}{
+\begin{itemize}
+    \setlength\itemsep{0.3em}
+    \item Architected and delivered end-to-end customer service landing page using React frontend with TypeScript and Spring-based backend, integrating GraphQL data sources to serve \textasciitilde100K daily users and significantly reduce support contacts through improved self-service capabilities
+    \item Designed GraphQL schemas and implemented Order Cancellation flow for voice bot integration, serving 10K customers daily worldwide with seamless RESTful and GraphQL API integration
+    \item Led JDK17 migration campaign across 28 packages, conducting thorough code reviews and ensuring best practices across cross-functional teams
+\end{itemize}
+}
+
+\experience{Software Development Engineer}{MAQ Software}{Nov 2023 - May 2024}{
+\begin{itemize}
+    \setlength\itemsep{0.3em}
+    \item Led complete migration of FasttrackBI Portal from legacy AngularJS to modern React with TypeScript, improving maintainability and developer efficiency
+    \item Optimized web application performance by 30\% through React virtual DOM implementation and query optimization, significantly improving user experience for data-intensive reporting features
+\end{itemize}
+}
+
+\experience{Software Development Engineer Intern}{Amazon -- CS Stores Fixed Corporate}{January 2023 - June 2023}{
+\begin{itemize}
+    \setlength\itemsep{0.3em}
+    \item Developed GraphQL APIs and React-based UI components, reducing latency and improving frontend-backend integration efficiency
+    \item Built responsive file upload feature using React and vanilla JavaScript, following modern frontend best practices and ensuring cross-browser compatibility
+\end{itemize}
+}
+
+\sectiontitle{Projects}
+
+\textbf{ISRO Safe Ship Nav} | \textit{React.js, Django-RestAPI, Python}
+\begin{itemize}
+    \setlength\itemsep{0.3em}
+    \item Engineered React-based visualization interface for ISRO's geo-spatial dataset, implementing optimal path algorithms for maritime navigation with real-time performance optimization
+\end{itemize}
+
+\sectiontitle{Education}
+
+\textbf{B.Tech in Computer Science \& Engineering} \hfill August 2019 -- May 2023\\
+Indian Institute of Information Technology, Vadodara\\
+\textbf{CPI: 8.1/10}
+
+\vspace{0.5em}
+
+\sectiontitle{Publications}
+
+\href{https://link.springer.com/chapter/10.1007/978-3-031-26886-1_6}{Raghu R., Novarun D., Swasti K. et al. \textit{An Optimization Ontology for Goal Modelling Frameworks} (Accepted at IDAMS, 2022).}
+
+\sectiontitle{Skills}
+
+\textbf{Programming Languages}: JavaScript, TypeScript, HTML, CSS, Python
+
+\textbf{Frameworks \& Libraries}: React, Redux, Node, Express, Spring/SpringBoot, Jest
+
+\textbf{Cloud Services}: AWS Lambda, AWS S3, AWS DynamoDB, AWS Cloudfront
+
+\textbf{Databases}: GraphQL, PostgreSQL, MongoDB
+
+\textbf{Other Skills}: RESTful APIs, Performance Optimization, Code Reviews, CI/CD Pipelines, Agile Development
+
+\sectiontitle{Achievements}
+
+\begin{itemize}
+    \setlength\itemsep{0.3em}
+    \item \textbf{INMO 2019 Scholar} -- Indian National Mathematics Olympiad
+    \item \textbf{FileCoin} track winners of Hackathon organised by Devfolio
+    \item \textbf{Codechef: 5 star} (max rating 2040)
+\end{itemize}
+
+\end{document}

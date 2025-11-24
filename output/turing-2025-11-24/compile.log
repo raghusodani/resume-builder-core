@@ -1,0 +1,85 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./turing-raghu-raj-sodani.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(./altacv.cls
+Document Class: altacv 2025/07/30 AltaCV v1.7.4, yet another alternative class 
+for a resume/curriculum vitae.
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/extsizes/extarticle.cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/size10.clo)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/exscale.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-def/pdftex.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/dvipsnam.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pdfx/pdfx.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifluatex.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/iftex.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifpdf.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifxetex.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/everyshi/everyshi.sty){/usr/
+local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/inputenc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pdfx/l8u-penc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.
+sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/gettitlestring/gettitlestr
+ing.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/rerunfilecheck/rerunfilechec
+k.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/uniquecounter/uniquecounte
+r.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/psdextra.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/colorprofiles/colorprofile
+s.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/colorprofiles/colorprofile
+s.tex))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pdfx/AdobeColorProfiles.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pdfx/8bit.def)
+** pdfx: No file turing-raghu-raj-sodani.xmpdata . Metadata will be incomplete!
+
+<<sRGB.icc>> (/usr/local/texlive/2025basic/texmf-dist/tex/latex/pdfx/8bit.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pdfx/glyphtounicode-cmr.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/pdfx/glyphtounicode-ntx.tex)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/ifthen.sty)
+
+! LaTeX Error: File `xmpincl.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.2882 \begingroup
+                  ^^M
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on turing-raghu-raj-sodani.log.

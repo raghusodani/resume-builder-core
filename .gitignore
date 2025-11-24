@@ -32,11 +32,8 @@ env/
 *.swo
 *~
 
-# LaTeX
+# LaTeX auxiliary files only (keep .tex and .pdf files)
 *.aux
-*.log
-*.out
-*.toc
 *.fdb_latexmk
 *.fls
 *.synctex.gz
@@ -50,23 +47,15 @@ Thumbs.db
 # Environment variables
 .env
 
-# Output (keep structure, ignore generated files)
-output/*/*.pdf
-output/*/*.tex
-output/*/*.aux
-output/*/*.log
-output/*/*.md
-
-# Keep example outputs for documentation
-!output/examples/
-
-# Personal resume content
+# Personal resume content (your private data)
 base/resume-content.json
 
 # Logs
 logs/
-*.log
 
 # Temporary files
 tmp/
 temp/
+
+# Note: All PDFs, .tex files, and markdown files in output/ are tracked
+# This includes all tailored resumes for all companies

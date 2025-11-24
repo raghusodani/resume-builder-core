@@ -1,0 +1,143 @@
+% DBA Engineer - Database Platform Role (Fixed Spacing)
+\documentclass[letterpaper,10.5pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Raghu Raj Sodani} \\ \vspace{1pt}
+    \small +91-9928486320 $|$ \href{mailto:sodaniraghuraj@gmail.com}{\underline{sodaniraghuraj@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/raghusodani/}{\underline{linkedin.com/in/raghusodani}} $|$
+    \href{https://github.com/raghusodani}{\underline{github.com/raghusodani}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section*{Summary}
+\small{Software engineer with 4+ years building and optimizing database-backed distributed systems serving 100K+ users. Strong expertise in PostgreSQL, MongoDB, DynamoDB with hands-on experience in query optimization (30-40\% performance improvements), data pipeline design, and high-availability architecture (99.9\% uptime). Proven track record in troubleshooting database issues, implementing monitoring solutions, and automating operational workflows. Comfortable working on multiple dynamic projects while collaborating with cross-functional teams.}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Databases}{: PostgreSQL, MongoDB, DynamoDB (NoSQL), MySQL basics, SQL query optimization, Indexing, Schema design} \\
+     \textbf{Database Operations}{: Performance tuning, Query optimization, Backup/recovery strategies, Data migration, Replication} \\
+     \textbf{Programming \& Scripting}{: Python, Java, JavaScript, TypeScript, Shell scripting, Automation} \\
+     \textbf{Infrastructure \& Cloud}{: AWS (RDS, DynamoDB, S3, Lambda, EC2), Infrastructure as Code (AWS CDK), Linux/Unix administration} \\
+     \textbf{DevOps \& Monitoring}{: Docker, CI/CD (GitHub Actions), CloudWatch monitoring, System health tracking, Incident response}
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Development Engineer}{May 2024 -- Present}
+      {Amazon}{Hyderabad, India}
+      \resumeItemListStart
+        \resumeItem{Designed and optimized data pipeline for DynamoDB-to-Data Lake transfer handling millions of records, implementing automated validation, transformation logic, and data quality checks ensuring 99.9\% reliability}
+        \resumeItem{Optimized database interactions for customer service platform serving 100K+ daily users—implemented connection pooling, query optimization, and caching strategies reducing database load by 40\%}
+        \resumeItem{Troubleshot and resolved database performance issues including slow queries, connection leaks, and lock contention—implemented monitoring alerts with CloudWatch for proactive issue detection}
+        \resumeItem{Collaborated with database architects and application teams on schema design, indexing strategies, and capacity planning for high-traffic systems}
+        \resumeItem{Automated database deployment workflows integrating with CI/CD pipelines for schema migrations and rollback procedures}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Software Development Engineer}{Nov 2023 -- May 2024}
+      {MAQ Software}{Hyderabad, India}
+      \resumeItemListStart
+        \resumeItem{Optimized large-scale database queries reducing execution time by 30\% through index optimization, query rewriting, and database schema refinements}
+        \resumeItem{Implemented database backup and recovery procedures for production systems ensuring business continuity and disaster recovery compliance}
+        \resumeItem{Monitored database health metrics, identified performance bottlenecks, and tuned database configuration parameters improving overall system efficiency}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Software Development Engineer Intern}{Jan 2023 -- Jun 2023}
+      {Amazon}{Hyderabad, India}
+      \resumeItemListStart
+        \resumeItem{Developed database-backed microservices with PostgreSQL and GraphQL reducing API latency by 40\% through efficient query design and database connection management}
+        \resumeItem{Implemented database access controls, role-based permissions, and query validation ensuring data security and compliance}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Database Project - ISRO Maritime System}{2022}
+      {Python, Django, PostgreSQL}{Remote}
+      \resumeItemListStart
+        \resumeItem{Designed and implemented PostgreSQL database schema for geospatial data handling millions of maritime records—optimized spatial queries and indexes for real-time route calculation}
+        \resumeItem{Built automated backup scripts and database maintenance procedures ensuring data integrity and system reliability}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Information Technology, Vadodara}{Aug 2019 -- May 2023}
+      {B.Tech in Computer Science \& Engineering, GPA: 8.1/10}{}
+  \resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS-----------
+\section{Key Strengths}
+  \resumeItemListStart
+    \resumeItem{\textbf{Performance Optimization}: Proven 30-40\% database performance improvements through query optimization and indexing}
+    \resumeItem{\textbf{CodeChef 5-Star} (Top 0.5\%): Strong problem-solving—ability to quickly pick up new technologies and navigate complex challenges}
+  \resumeItemListEnd
+
+\end{document}

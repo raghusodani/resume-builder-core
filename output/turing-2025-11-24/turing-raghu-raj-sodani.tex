@@ -1,0 +1,157 @@
+% Turing - Full-Stack AI Developer Role
+% ATS-Friendly Single-Page Resume
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Raghu Raj Sodani} \\ \vspace{1pt}
+    \small +91-9928486320 $|$ \href{mailto:sodaniraghuraj@gmail.com}{\underline{sodaniraghuraj@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/raghusodani/}{\underline{linkedin.com/in/raghusodani}} $|$
+    \href{https://github.com/raghusodani}{\underline{github.com/raghusodani}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section*{Summary}
+Full-stack developer with 4+ years of experience in Python, JavaScript, and TypeScript. Proven expertise in building scalable AI-driven solutions serving 100K+ users, optimizing performance through algorithmic improvements, and collaborating with cross-functional teams and researchers. Strong problem-solving abilities (CodeChef 5-star) with published research in optimization algorithms.
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: Python, TypeScript, JavaScript, Java, C++, SQL} \\
+     \textbf{Frontend Technologies}{: React.js, Redux, HTML, CSS, Responsive Design} \\
+     \textbf{Backend Frameworks}{: Django, Spring Boot, Node.js, Express, REST APIs, GraphQL} \\
+     \textbf{AI/ML Libraries}{: TensorFlow, Keras, NumPy, Pandas, Scikit-learn} \\
+     \textbf{Databases \& Cloud}{: PostgreSQL, MongoDB, DynamoDB, GraphQL, AWS (S3, Lambda, DynamoDB)} \\
+     \textbf{Tools \& Practices}{: Git, Docker, AWS CDK, CI/CD, Code Reviews, Agile, Documentation}
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Development Engineer}{May 2024 -- Present}
+      {Amazon}{Hyderabad, India}
+      \resumeItemListStart
+        \resumeItem{Engineered data pipeline architecture integrating business intelligence for optimized data transfer between DynamoDB and Data Lake, implementing transformation and validation layers ensuring data accuracy}
+        \resumeItem{Developed full-stack customer service platform using React, TypeScript, and GraphQL serving 100K+ daily users, reducing customer contacts by 12.7\% through enhanced self-service capabilities}
+        \resumeItem{Implemented automated voice interaction system with scripting and algorithms handling 10K+ global user queries with intelligent response mechanisms}
+        \resumeItem{Led cross-functional JDK17 migration across 28 packages, maintaining stakeholder communication to align technical solutions with organizational goals}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Development Engineer}{Nov 2023 -- May 2024}
+      {MAQ Software}{Hyderabad, India}
+      \resumeItemListStart
+        \resumeItem{Spearheaded full-stack migration from legacy AngularJS to modern React with TypeScript, optimizing code functionality and operational efficiency}
+        \resumeItem{Achieved 30\% performance improvement in data-heavy operations through algorithmic optimization and efficient query resolution}
+        \resumeItem{Collaborated with stakeholders to document issues, troubleshoot problems, and deliver solutions ensuring accurate output validation}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Development Engineer Intern}{Jan 2023 -- Jun 2023}
+      {Amazon}{Hyderabad, India}
+      \resumeItemListStart
+        \resumeItem{Developed Spring-based APIs and GraphQL queries optimizing code functionality and reducing latency}
+        \resumeItem{Created responsive UI components using React and JavaScript for enhanced user interaction mechanisms}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Research \& Projects}
+   \resumeSubHeadingListStart
+     \resumeProjectHeading
+          {\textbf{ISRO Maritime Navigation System} $|$ \emph{Python, Django, React.js}}{2022}
+          \resumeItemListStart
+            \resumeItem{Engineered Python/Django-based system collaborating with ISRO researchers for optimal deep-sea ship route planning, delivering impactful insights through data-driven decision making}
+            \resumeItem{Implemented geospatial algorithms analyzing depth and wave patterns for intelligent path optimization}
+          \resumeItemListEnd
+   \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Information Technology, Vadodara}{Vadodara, India}
+      {Bachelor of Technology in Computer Science \& Engineering, GPA: 8.1/10}{Aug 2019 -- May 2023}
+  \resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements \& Recognition}
+  \resumeItemListStart
+    \resumeItem{\textbf{CodeChef 5-Star} (Rating 2040) - Top 0.5\% globally, demonstrating strong algorithmic problem-solving abilities}
+    \resumeItem{\textbf{INMO 2019 Scholar} - Indian National Mathematics Olympiad, analytical and mathematical problem-solving excellence}
+    \resumeItem{\textbf{Published Research} - Optimization Ontology paper at IDAMS 2022, Springer, demonstrating research collaboration capabilities}
+    \resumeItem{\textbf{FileCoin Track Winner} - Devfolio Hackathon, innovative solution development}
+  \resumeItemListEnd
+
+\end{document}

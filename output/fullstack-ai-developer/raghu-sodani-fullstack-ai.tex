@@ -1,0 +1,126 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[sfdefault]{roboto}
+\usepackage{geometry}
+\geometry{left=1cm, right=1cm, top=1cm, bottom=0.8cm}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{enumitem}
+
+\definecolor{IFBlue}{HTML}{0F6688}
+\definecolor{IFDarkBlue}{HTML}{00425C}
+
+\hypersetup{colorlinks=true, urlcolor=IFDarkBlue, pdfborder={0 0 0}}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+\newcommand{\namesection}[2]{
+    \begin{center}
+        {\Huge\textbf{#1}}\\[0.3em]
+        {\large\textit{#2}}
+    \end{center}
+    \vspace{0.4em}
+}
+
+\newcommand{\contactinfo}[1]{
+    \begin{center}
+        #1
+    \end{center}
+    \vspace{0.6em}
+}
+
+\newcommand{\sectiontitle}[1]{
+    \vspace{0.5em}
+    {\Large\textbf{\color{IFBlue}#1}}
+    \vspace{0.2em}
+    \hrule
+    \vspace{0.3em}
+}
+
+\begin{document}
+
+\namesection{RAGHU RAJ SODANI}{Full-Stack Developer | Python, TypeScript, JavaScript}
+
+\contactinfo{
+    sodaniraghuraj@gmail.com $\cdot$ +91-9928486320 $\cdot$ 
+    \href{https://linkedin.com/in/raghusodani}{linkedin.com/in/raghusodani} $\cdot$ 
+    \href{https://github.com/raghusodani}{github.com/raghusodani}
+}
+
+\sectiontitle{Professional Summary}
+Full-stack developer with 4+ years of experience in Python, JavaScript, and TypeScript. Proven expertise in building scalable systems serving 100K+ users, optimizing performance, and collaborating with cross-functional teams and researchers to deliver innovative AI-driven solutions.
+
+\sectiontitle{Experience}
+
+\textbf{Software Development Engineer} \hfill May 2024 -- Present\\
+\textit{Amazon, Hyderabad, India}
+\begin{itemize}[leftmargin=*, itemsep=0.1em, topsep=0.2em]
+    \item Engineered data pipeline architecture integrating business intelligence for optimized data transfer between DynamoDB and Amazon Data Lake, ensuring data accuracy and transformation efficiency
+    \item Developed full-stack customer service platform using React, TypeScript, and GraphQL, serving 100K+ daily users with measurable business impact reducing customer contacts by 12.7\%
+    \item Implemented automated voice interaction system with scripting and algorithms handling 10K+ daily user queries with intelligent response mechanisms
+    \item Led cross-functional JDK17 migration across 28 packages, maintaining stakeholder communication to align technical solutions with organizational goals
+\end{itemize}
+\vspace{0.3em}
+
+\textbf{Software Development Engineer} \hfill Nov 2023 -- May 2024\\
+\textit{MAQ Software, Hyderabad, India}
+\begin{itemize}[leftmargin=*, itemsep=0.1em, topsep=0.2em]
+    \item Spearheaded full-stack migration from legacy AngularJS to modern React with TypeScript, optimizing code functionality and operational efficiency
+    \item Achieved 30\% performance improvement in data-heavy operations through algorithmic optimization and efficient query resolution
+    \item Collaborated with stakeholders to document issues, troubleshoot problems, and deliver solutions ensuring accurate output validation
+\end{itemize}
+\vspace{0.3em}
+
+\textbf{SDE Intern} \hfill Jan 2023 -- Jun 2023\\
+\textit{Amazon, Hyderabad, India}
+\begin{itemize}[leftmargin=*, itemsep=0.1em, topsep=0.2em]
+    \item Developed Spring-based APIs and GraphQL queries optimizing code functionality and reducing latency significantly
+    \item Created responsive UI components using React and JavaScript for enhanced user interaction mechanisms
+    \item Documented comprehensive troubleshooting guides for system maintenance and issue resolution
+\end{itemize}
+\vspace{0.3em}
+
+\sectiontitle{Research \& Projects}
+
+\textbf{Maritime Navigation System (ISRO Collaboration)} \hfill \textit{Python, Django, React.js}
+\begin{itemize}[leftmargin=*, itemsep=0.1em, topsep=0.2em]
+    \item Engineered Python/Django-based system collaborating with ISRO researchers to deliver optimal deep-sea route planning
+    \item Implemented geospatial algorithms and data analysis for intelligent path optimization using mathematical modeling
+    \item Developed interactive React.js dashboard delivering impactful insights through real-time visualization
+\end{itemize}
+
+\sectiontitle{Technical Skills}
+
+\begin{multicols}{2}
+\noindent\textbf{Languages}: Python, TypeScript, JavaScript, Java, C++
+
+\noindent\textbf{Frontend}: React.js, Redux, HTML/CSS
+
+\columnbreak
+
+\noindent\textbf{Backend}: Django, Spring Boot, Node.js, Express
+
+\noindent\textbf{AI/ML}: TensorFlow, Keras, NumPy, Pandas
+\end{multicols}
+
+\vspace{-0.3em}
+\noindent\textbf{Cloud \& Data}: AWS (S3, DynamoDB, Lambda), GraphQL, PostgreSQL, MongoDB\\
+\noindent\textbf{Tools \& Practices}: Git, Docker, Code Reviews, Agile, CI/CD
+
+\sectiontitle{Education}
+
+\textbf{B.Tech in Computer Science Engineering} \hfill Aug 2019 -- May 2023\\
+\textit{Indian Institute of Information Technology, Vadodara} \hfill GPA: 8.1/10
+
+\sectiontitle{Achievements \& Recognition}
+
+\begin{itemize}[leftmargin=*, itemsep=0.1em, topsep=0.2em]
+    \item \textbf{INMO 2019 Scholar} -- Indian National Mathematics Olympiad (demonstrates analytical and problem-solving excellence)
+    \item \textbf{CodeChef 5-Star} -- Rating 2040, Top 0.5\% globally in competitive programming
+    \item \textbf{Research Publication} -- IDAMS 2022, Springer (Optimization Ontology for Goal Modelling Frameworks)
+\end{itemize}
+
+\end{document}

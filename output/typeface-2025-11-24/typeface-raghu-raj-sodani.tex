@@ -1,0 +1,164 @@
+% Typeface - Forward Deployed Engineer Role
+% GenAI-Focused Single-Page Resume
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Raghu Raj Sodani} \\ \vspace{1pt}
+    \small +91-9928486320 $|$ \href{mailto:sodaniraghuraj@gmail.com}{\underline{sodaniraghuraj@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/raghusodani/}{\underline{linkedin.com/in/raghusodani}} $|$
+    \href{https://github.com/raghusodani}{\underline{github.com/raghusodani}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section*{Summary}
+Forward-thinking full-stack engineer with 4+ years building production applications at scale (100K+ users). Strong foundation in ML/AI with hands-on TensorFlow/Keras experience, eager to apply expertise to cutting-edge GenAI solutions. Proven track record of rapid prototyping, stakeholder collaboration, and translating complex technical concepts for diverse audiences. Thrives in fast-paced environments with startup DNA—comfortable wearing multiple hats and driving transformations through experimentation.
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Full-Stack Development}{: React.js, Next.js, TypeScript, JavaScript, Node.js, Python, Java Spring Boot, Django, REST APIs, GraphQL} \\
+     \textbf{AI/ML Foundations}{: TensorFlow, Keras, PyTorch basics, NumPy, Pandas, Scikit-learn, Model training \& optimization} \\
+     \textbf{Cloud \& Infrastructure}{: AWS (Lambda, S3, EC2, DynamoDB, SageMaker basics), Docker, CI/CD (GitHub Actions, GitLab), IaC concepts} \\
+     \textbf{Databases \& Data}{: PostgreSQL, MongoDB, DynamoDB, GraphQL, Data pipelines, ETL, Semantic data modeling} \\
+     \textbf{Integration \& APIs}{: OAuth, JWT, API security, Microservices, Event-driven architecture, Third-party integrations} \\
+     \textbf{DevOps \& Tools}{: Git, Docker, AWS CDK, Terraform basics, Monitoring (CloudWatch), Agile, Technical documentation}
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Development Engineer}{May 2024 -- Present}
+      {Amazon}{Hyderabad, India}
+      \resumeItemListStart
+        \resumeItem{Rapidly prototyped and deployed full-stack customer service platform (React, TypeScript, GraphQL) serving 100K+ daily users, reducing customer contacts by 12.7\% through enhanced self-service capabilities—demonstrating fast iteration and customer impact}
+        \resumeItem{Engineered end-to-end data pipeline integrating DynamoDB and Data Lake with transformation layers, validation logic, and automated quality checks ensuring data accuracy for downstream analytics}
+        \resumeItem{Built intelligent voice interaction system processing 10K+ daily queries with automated response mechanisms using algorithmic approaches and scripting, showcasing AI-first experimentation mindset}
+        \resumeItem{Led cross-functional JDK17 migration across 28 packages coordinating with multiple stakeholders, translating technical requirements into actionable roadmaps while maintaining deployment velocity}
+        \resumeItem{Partnered with product teams through technical workshops to define requirements, present solutions, and gather feedback—balancing customer needs with technical feasibility}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Development Engineer}{Nov 2023 -- May 2024}
+      {MAQ Software}{Hyderabad, India}
+      \resumeItemListStart
+        \resumeItem{Spearheaded full-stack migration from legacy AngularJS to modern React + TypeScript architecture, delivering in sprints with iterative feedback loops and achieving 30\% performance improvement through optimization}
+        \resumeItem{Designed reusable component library and patterns deployable across projects with standardized APIs, reducing development time by creating abstraction layers for common functionality}
+        \resumeItem{Collaborated directly with enterprise stakeholders through technical workshops to document requirements, troubleshoot issues, and deliver solutions ensuring compliance and quality standards}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Development Engineer Intern}{Jan 2023 -- Jun 2023}
+      {Amazon}{Hyderabad, India}
+      \resumeItemListStart
+        \resumeItem{Developed Spring-based microservices and GraphQL APIs with performance optimization reducing latency—experience translates to building scalable GenAI application backends}
+        \resumeItem{Created responsive React UI components with modern hooks and state management for seamless user experiences}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{AI/ML Projects \& Research}
+   \resumeSubHeadingListStart
+     \resumeProjectHeading
+          {\textbf{ISRO Maritime Navigation System} $|$ \emph{Python, Django, TensorFlow, React.js}}{2022}
+          \resumeItemListStart
+            \resumeItem{Built end-to-end AI-powered navigation system collaborating with ISRO researchers—experience translating complex technical concepts for domain experts and iterating on feedback}
+            \resumeItem{Implemented geospatial algorithms with TensorFlow for pattern recognition, data preprocessing pipelines, and model optimization delivering actionable insights through interactive dashboards}
+            \resumeItem{Designed REST APIs integrating ML models with frontend, showcasing ability to deploy AI solutions in production-like environments}
+          \resumeItemListEnd
+     \resumeProjectHeading
+          {\textbf{Optimization Research (Published)} $|$ \emph{Python, Mathematical Modeling}}{2022}
+          \resumeItemListStart
+            \resumeItem{Authored research paper on optimization algorithms published in IDAMS 2022 (Springer)—demonstrates ability to document technical approaches, create comprehensive guides, and share learnings with broader communities}
+          \resumeItemListEnd
+   \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Information Technology, Vadodara}{Vadodara, India}
+      {Bachelor of Technology in Computer Science \& Engineering, GPA: 8.1/10}{Aug 2019 -- May 2023}
+  \resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements \& Strengths}
+  \resumeItemListStart
+    \resumeItem{\textbf{CodeChef 5-Star} (Rating 2040, Top 0.5\%) - Exceptional problem-solving and algorithmic thinking critical for AI agent development}
+    \resumeItem{\textbf{INMO 2019 Scholar} - Mathematical olympiad background strengthens understanding of model optimization and prompt engineering}
+    \resumeItem{\textbf{Fast Learner \& Startup DNA} - Thrives in ambiguous, fast-paced environments; comfortable tackling challenges outside core expertise}
+    \resumeItem{\textbf{Customer-Centric Mindset} - Proven ability to build trust with enterprise stakeholders, present demos, and translate technical concepts}
+  \resumeItemListEnd
+
+\end{document}

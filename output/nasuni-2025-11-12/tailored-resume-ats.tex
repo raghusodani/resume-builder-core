@@ -1,0 +1,153 @@
+% Nasuni - Software Engineer Full Stack Developer
+% ATS-Friendly Simple Template
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Raghu Raj Sodani} \\ \vspace{1pt}
+    \small +91-9928486320 $|$ \href{mailto:sodaniraghuraj@gmail.com}{\underline{sodaniraghuraj@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/raghu-raj-sodani/}{\underline{linkedin.com/in/raghu-raj-sodani}} $|$
+    \href{https://github.com/raghusodani}{\underline{github.com/raghusodani}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section*{Summary}
+Full-stack Software Engineer with 2+ years building scalable web applications using React, TypeScript, Python, and cloud technologies. Strong expertise in frontend development with React and backend API development. Proven experience with AWS services, Docker, CI/CD pipelines, and agile methodologies serving 100K+ users.
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Frontend}{: JavaScript, React, TypeScript, HTML, CSS, Redux} \\
+     \textbf{Backend}{: Python, Java, Node.js, Express, Spring/SpringBoot, REST APIs} \\
+     \textbf{Cloud \& DevOps}{: AWS (EC2, Lambda, RDS, API Gateway, S3), Docker, Git, Jenkins, CI/CD} \\
+     \textbf{Databases}{: PostgreSQL, MySQL, MongoDB, DynamoDB}
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Development Engineer}{May 2024 -- Present}
+      {Amazon - Identity Services / CS Stores Fixed Corporate}{Remote}
+      \resumeItemListStart
+        \resumeItem{Designed, implemented, and tested customer-facing application using React with TypeScript frontend and Spring backend with REST APIs, serving 100K+ daily users with responsive and intuitive UI}
+        \resumeItem{Developed and maintained API services with performance testing to ensure scalability and optimal user experience}
+        \resumeItem{Collaborated with UI/UX, product, and test engineers to deliver features following agile methodologies and quality guidelines}
+        \resumeItem{Worked with AWS services including Lambda, S3, RDS, and API Gateway for cloud-native development}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Development Engineer}{Nov 2023 -- May 2024}
+      {MAQ Software}{Hyderabad, India}
+      \resumeItemListStart
+        \resumeItem{Contributed to full-stack development migrating enterprise application to React with TypeScript, ensuring responsive and visually appealing user interface}
+        \resumeItem{Enhanced existing software components and optimized performance by 30\% through troubleshooting and problem-solving}
+        \resumeItem{Worked in agile development environment, collaborating with team members and following organizational guidelines with strong accountability to deliverables}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Development Engineer Intern}{Jan 2023 -- Jun 2023}
+      {Amazon - CS Stores Fixed Corporate}{Remote}
+      \resumeItemListStart
+        \resumeItem{Developed full-stack features with React frontend and backend API services, implementing REST APIs}
+        \resumeItem{Performed root cause analysis for incidents and implemented preventative measures}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+   \resumeSubHeadingListStart
+     \resumeProjectHeading
+          {\textbf{ISRO Safe Ship Nav} $|$ \emph{React, Python, Django REST API, PostgreSQL}}{2022}
+          \resumeItemListStart
+            \resumeItem{Built full-stack web application with React frontend and Python Django backend, implementing REST APIs and PostgreSQL database for maritime navigation system}
+          \resumeItemListEnd
+   \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Information Technology, Vadodara}{Vadodara, India}
+      {Bachelor of Technology in Computer Science \& Engineering, CPI: 8.1/10}{Aug 2019 -- May 2023}
+  \resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+  \resumeItemListStart
+    \resumeItem{\textbf{INMO 2019 Scholar} - Indian National Mathematics Olympiad, strong problem-solving skills}
+    \resumeItem{\textbf{Published Research} - Optimization Ontology paper, IDAMS 2022, Springer}
+    \resumeItem{\textbf{Codechef 5 Star} - Maximum rating 2040, demonstrates excellent troubleshooting abilities}
+  \resumeItemListEnd
+
+\end{document}

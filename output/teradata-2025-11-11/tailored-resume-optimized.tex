@@ -1,0 +1,144 @@
+\documentclass[10pt,letterpaper]{article}
+
+% Optimizations Applied:
+% ✅ Roboto font (modern, compact)
+% ✅ Tighter margins (1cm instead of 1.25cm)
+% ✅ Two-column skills section
+% ✅ Original spacing preserved (not tighter)
+% ✅ No tagline
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[sfdefault]{roboto}
+\usepackage{geometry}
+\geometry{left=1cm, right=1cm, top=1cm, bottom=0.8cm}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{multicol}
+
+\definecolor{IFBlue}{HTML}{0F6688}
+\definecolor{IFDarkBlue}{HTML}{00425C}
+
+\hypersetup{colorlinks=true, urlcolor=IFDarkBlue, pdfborder={0 0 0}}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Custom commands with ORIGINAL spacing
+\newcommand{\namesection}[1]{
+    \begin{center}
+        {\Huge\textbf{#1}}
+    \end{center}
+    \vspace{0.5em}
+}
+
+\newcommand{\contactinfo}[1]{
+    \begin{center}
+        #1
+    \end{center}
+    \vspace{1em}
+}
+
+\newcommand{\sectiontitle}[1]{
+    \vspace{0.8em}
+    {\Large\textbf{\color{IFBlue}#1}}
+    \vspace{0.3em}
+    \hrule
+    \vspace{0.5em}
+}
+
+\newcommand{\experience}[4]{
+    \textbf{#1} \hfill #3\\
+    \textit{#2}
+    #4
+    \vspace{0.5em}
+}
+
+\begin{document}
+
+\namesection{Raghu Raj Sodani}
+
+\contactinfo{
+    sodaniraghuraj@gmail.com $\cdot$ +91-9928486320 $\cdot$ 
+    \href{https://www.linkedin.com/in/raghu-raj-sodani/}{LinkedIn: raghusodani} $\cdot$ 
+    \href{https://github.com/raghusodani}{GitHub: raghusodani}
+}
+
+\sectiontitle{Experience}
+
+\experience{Software Development Engineer}{Amazon -- Identity Services / CS Stores Fixed Corporate}{May 2024 - now}{
+\begin{itemize}
+    \setlength\itemsep{0.3em}
+    \item Architected and implemented data pipeline for transferring data from DynamoDB to Amazon Data Lake, incorporating transformation and data correctness validation layers to ensure data integrity across distributed systems serving 100K+ daily users
+    \item Designed and developed Spring-based backend services with GraphQL API layer, implementing complex schema designs and query optimization to serve 10K+ global customers daily with low-latency data retrieval
+    \item Led JDK17 migration campaign across 28 packages, performing thorough code reviews, debugging compatibility issues, and ensuring adherence to software engineering best practices across cross-functional teams
+\end{itemize}
+}
+
+\experience{Software Development Engineer}{MAQ Software}{Nov 2023 - May 2024}{
+\begin{itemize}
+    \setlength\itemsep{0.3em}
+    \item Engineered backend migration of FasttrackBI Portal from legacy .NET Framework to .NET 7, redesigning data access layers and implementing robust error handling for enterprise-scale reporting system
+    \item Optimized database query performance by 30\% through algorithmic improvements, indexing strategies, and efficient data loading mechanisms for large-scale data processing operations
+\end{itemize}
+}
+
+\experience{Software Development Engineer Intern}{Amazon -- CS Stores Fixed Corporate}{January 2023 - June 2023}{
+\begin{itemize}
+    \setlength\itemsep{0.3em}
+    \item Developed Spring-based RESTful APIs and GraphQL query resolvers, implementing efficient data layer integration patterns that significantly reduced backend latency and improved system throughput
+    \item Built scalable backend services handling file uploads and metadata management, implementing robust validation and error handling for high-reliability customer-facing features
+\end{itemize}
+}
+
+\sectiontitle{Projects}
+
+\textbf{ISRO Safe Ship Nav} | \textit{Python, Django-RestAPI, PostgreSQL}
+\begin{itemize}
+    \setlength\itemsep{0.3em}
+    \item Implemented graph-based pathfinding algorithms using advanced data structures to process geo-spatial datasets, optimizing for computational complexity and query performance in maritime navigation system
+\end{itemize}
+
+\sectiontitle{Education}
+
+\textbf{B.Tech in Computer Science \& Engineering} \hfill August 2019 -- May 2023\\
+Indian Institute of Information Technology, Vadodara\\
+\textbf{CPI: 8.1/10}
+
+\vspace{0.5em}
+
+\sectiontitle{Publications}
+
+\href{https://link.springer.com/chapter/10.1007/978-3-031-26886-1_6}{Raghu R., Novarun D., Swasti K. et al. \textit{An Optimization Ontology for Goal Modelling Frameworks} (Accepted at IDAMS, 2022).}
+
+\vspace{0.5em}
+
+\sectiontitle{Skills}
+
+% Two-column skills section
+\begin{multicols}{2}
+\noindent\textbf{Languages}: C++, Java, Python, SQL
+
+\noindent\textbf{Frameworks}: Spring/SpringBoot, JUnit, Mockito, Django REST Framework
+
+\columnbreak
+
+\noindent\textbf{Cloud}: AWS DynamoDB, AWS S3, AWS Lambda, AWS RDS
+
+\noindent\textbf{Databases}: SQL, PostgreSQL, MongoDB, DynamoDB, GraphQL
+\end{multicols}
+
+\noindent\textbf{Other Skills}: Data Structures, Algorithm Design, Debugging, Performance Optimization, System Design, Code Reviews, Linux
+
+\vspace{0.5em}
+
+\sectiontitle{Achievements}
+
+\begin{itemize}
+    \setlength\itemsep{0.3em}
+    \item \textbf{INMO 2019 Scholar} -- Indian National Mathematics Olympiad
+    \item \textbf{FileCoin} track winners of Hackathon organised by Devfolio
+    \item \textbf{Codechef: 5 star} (max rating 2040) -- Demonstrates strong algorithmic and problem-solving skills
+\end{itemize}
+
+\end{document}
