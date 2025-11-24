@@ -1,0 +1,38 @@
+Senior Frontend Engineer - React
+
+Company: TechCorp Inc.
+Location: Remote / San Francisco, CA
+
+About the Role:
+We are seeking an experienced Frontend Engineer to join our dynamic team. You will be responsible for building and maintaining high-quality web applications that serve millions of users worldwide.
+
+Key Responsibilities:
+- Design and develop responsive, user-friendly web applications using React and TypeScript
+- Collaborate with backend teams to integrate RESTful APIs and GraphQL endpoints
+- Optimize application performance and ensure smooth user experience
+- Write clean, maintainable code following best practices
+- Participate in code reviews and mentor junior developers
+- Work in an Agile environment with cross-functional teams
+
+Required Qualifications:
+- 3+ years of professional experience in frontend development
+- Strong proficiency in React, JavaScript/TypeScript, HTML, and CSS
+- Experience with state management libraries (Redux, Context API)
+- Familiarity with modern frontend build tools and CI/CD pipelines
+- Understanding of web performance optimization techniques
+- Strong problem-solving skills and attention to detail
+- Excellent communication and teamwork abilities
+
+Preferred Qualifications:
+- Experience with Node.js and backend development
+- Knowledge of AWS or other cloud platforms
+- Experience with GraphQL
+- Contributions to open-source projects
+- Experience with testing frameworks (Jest, React Testing Library)
+
+What We Offer:
+- Competitive salary and equity
+- Flexible remote work options
+- Health insurance and wellness benefits
+- Professional development opportunities
+- Collaborative and innovative work environment

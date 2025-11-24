@@ -1,0 +1,61 @@
+{
+  "personalInfo": {
+    "name": "Your Full Name",
+    "email": "your.email@example.com",
+    "phone": "+1-234-567-8900",
+    "linkedin": "yourlinkedin",
+    "github": "yourgithub",
+    "website": "https://yourwebsite.com"
+  },
+  "summary": "Software engineer with X+ years building scalable systems. Expert in [technologies]. Proven track record in [achievements].",
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "company": "Company Name",
+      "location": "City, State/Country",
+      "duration": "Month YYYY -- Present",
+      "bullets": [
+        "Built feature X serving Y users, achieving Z% improvement",
+        "Optimized system A reducing latency by B%",
+        "Collaborated with teams C and D to deliver E",
+        "Implemented F using technologies G, H, I"
+      ]
+    },
+    {
+      "title": "Previous Role",
+      "company": "Previous Company",
+      "location": "City, State/Country",
+      "duration": "Month YYYY -- Month YYYY",
+      "bullets": [
+        "Achievement 1 with quantified results",
+        "Achievement 2 with specific technologies",
+        "Achievement 3 showing impact"
+      ]
+    }
+  ],
+  "skills": {
+    "programmingLanguages": ["Python", "JavaScript", "TypeScript", "Java"],
+    "frameworks": ["React", "Node.js", "Django", "Spring Boot"],
+    "databases": ["PostgreSQL", "MongoDB", "Redis"],
+    "cloudServices": ["AWS (Lambda, S3, EC2)", "Docker", "Kubernetes"],
+    "tools": ["Git", "CI/CD", "Linux"],
+    "methodologies": ["Agile", "TDD", "Microservices"]
+  },
+  "education": {
+    "degree": "B.Tech in Computer Science & Engineering",
+    "institution": "University Name",
+    "location": "City, Country",
+    "duration": "Aug YYYY -- May YYYY",
+    "gpa": "X.X/10 or X.X/4.0"
+  },
+  "achievements": [
+    {
+      "title": "Award or Recognition",
+      "description": "Brief description of achievement"
+    },
+    {
+      "title": "Competitive Programming",
+      "description": "Platform name - Rating/Rank"
+    }
+  ]
+}

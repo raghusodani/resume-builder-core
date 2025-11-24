@@ -1,0 +1,54 @@
+Raghu Raj Sodani
++91-9928486320
+sodaniraghuraj@gmail.com
+linkedin.com/in/raghu-raj-sodani
+github.com/raghusodani
+
+[Date]
+
+Hiring Manager
+Engineering Team
+Tower Research Capital
+India
+
+Dear Hiring Manager,
+
+I am writing to express my strong interest in the Full Stack Software Engineer position at Tower Research Capital. As a Software Development Engineer at Amazon in Hyderabad, I build and maintain full-stack applications serving 100,000+ daily users using JavaScript/TypeScript with React for high-performance UIs and backend services with REST APIs. With exactly 2.5 years of hands-on full stack development experience and proficiency in your required tech stack, I am excited about the opportunity to contribute to Tower's world-class trading and risk systems.
+
+Amazon Experience - Full-Stack Development at Scale:
+
+Currently at Amazon, I develop interactive, high-performance UIs using React with TypeScript, implementing frontend performance best practices including memoization, lazy loading, and efficient rendering strategies to handle data-intensive interfaces serving 100K+ daily users. On the backend, I design scalable REST and GraphQL services using Spring (similar architecture principles to Python's FastAPI), with experience in API design and documentation. This full-stack experience directly translates to Tower's need for engineers who can build complete trading and risk applications.
+
+I work extensively with PostgreSQL for relational data storage and have experience with database optimization techniques that improved query performance significantly. My Python experience includes Django for REST API development, and I'm well-positioned to work with FastAPI given the similar async frameworks. At Amazon, I've architected data pipelines processing high-throughput data—experience relevant to building low-latency, data-intensive systems that trading platforms require.
+
+Code Quality, Testing & CI/CD:
+
+At Amazon, I write clean, testable code across the stack with comprehensive test coverage. I use Jest for frontend testing and JUnit for backend testing, integrated into CI/CD pipelines using GitHub Actions and Jenkins to ship features quickly and reliably. I focus on debugging and resolving production issues with root-cause analysis and long-term stability—essential for the mission-critical nature of trading systems where reliability is paramount.
+
+My experience maintaining LIVE production environments at Amazon, supporting 100K+ users with high availability requirements, has taught me the discipline needed for systems where downtime directly impacts business operations. This aligns perfectly with Tower's need for engineers who understand production-grade code and system stability.
+
+Performance Optimization & Problem Solving:
+
+Performance optimization is core to my work. At Amazon, I've implemented frontend optimization techniques including Web Workers concepts, efficient state management, and lazy loading to ensure smooth user experiences even with large datasets. Prior to Amazon, at MAQ Software, I achieved 30% performance improvement through systematic performance tuning, profiling, and optimization—skills directly applicable to building high-performance trading UIs where every millisecond matters.
+
+My structured problem-solving approach and strong analytical abilities enable me to tackle complex technical challenges effectively. I've worked with data-intensive applications at Amazon, optimizing rendering performance and backend query efficiency to handle high-frequency data updates—experience relevant to real-time trading interfaces.
+
+Collaboration & High Ownership:
+
+I thrive in fast-paced environments with high ownership and rapid iteration. At Amazon, I collaborate closely with backend engineers, product managers, and stakeholders to gather requirements and deliver working solutions. I led a technical migration across 28 packages, demonstrating ability to work independently, prioritize effectively, and adapt to changing needs while maintaining clear communication across teams.
+
+I have a team-oriented mindset and excel at working in collaborative environments where smart, driven people push each other to excel. My Git workflows are clean, I participate actively in code reviews, and I advocate for best practices that improve team productivity and code quality.
+
+Why Tower Research Capital:
+
+Tower's reputation for innovation and discovering unique market opportunities through systematic trading excites me. The challenge of building electronic trading infrastructure that operates at world-class levels—combining high performance with reliability—aligns perfectly with my experience optimizing systems at Amazon scale. I am particularly drawn to working on trading and risk platforms where technical excellence directly impacts business outcomes, and where I can contribute to solving challenging problems in a results-oriented environment alongside highly intelligent and motivated colleagues.
+
+I am committed to writing clean, maintainable, production-grade code and am eager to apply my full-stack expertise to Tower's trading systems. My experience with React + TypeScript + Python + Django + PostgreSQL positions me to contribute immediately, and I'm highly motivated to quickly master any additional technologies Tower uses (Vue.js, Next.js, WebSocket) given my proven track record of learning new frameworks rapidly.
+
+I would welcome the opportunity to discuss how my Amazon experience building high-performance full-stack applications at scale, combined with my technical skills in your exact stack and structured problem-solving approach, can contribute to Tower's continued success in quantitative trading. Thank you for considering my application.
+
+Sincerely,
+
+Raghu Raj Sodani
+Software Development Engineer
+Amazon, Hyderabad

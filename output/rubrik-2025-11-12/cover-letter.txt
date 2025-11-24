@@ -1,0 +1,35 @@
+Raghu Raj Sodani
++91-9928486320
+sodaniraghuraj@gmail.com
+linkedin.com/in/raghu-raj-sodani
+github.com/raghusodani
+
+[Date]
+
+Hiring Manager
+Platform & Systems Engineering (Forge Team)
+Rubrik, Inc.
+
+Dear Hiring Manager,
+
+I am writing to express my strong interest in the Platform & Systems Engineering position on Rubrik's Forge team. As a Computer Science graduate with 2.5+ years of experience building high-performance infrastructure services for distributed systems, I am excited about the opportunity to contribute to Rubrik's Core Infrastructure that powers industry-leading solutions in Data Protection, Data Security, and Data Management.
+
+Why I'm a Strong Fit:
+
+My experience aligns closely with Rubrik's requirements. At Amazon, I have taken full ownership of projects from design to deployment, including architecting a data pipeline infrastructure serving 100K+ users across distributed systems. I designed and operationalized a cluster health monitoring system using Java Spring backend—directly relevant to Rubrik's next-generation Cluster Health Monitoring System. Additionally, I led a system-level JDK17 migration across 28 packages, demonstrating my ability to assess reliability and enhance error handling in complex software stacks.
+
+What sets me apart is my Codechef 5-star rating (2040), placing me in the top 0.5% of competitive programmers globally. This achievement demonstrates the strong fundamentals in data structures, algorithms, and problem-solving that Rubrik seeks. Combined with my INMO 2019 scholarship and published research in optimization algorithms, I have proven my ability to tackle complex technical challenges.
+
+I am proficient in Java with 2.5+ years of professional experience and have a strong foundation in C++. While I haven't worked extensively with Scala or Linux kernel programming yet, my track record shows I excel at learning new technologies quickly. My competitive programming background and systems engineering experience provide the strong fundamentals needed to rapidly master these areas.
+
+What Excites Me About Rubrik:
+
+I am particularly drawn to the Forge team's mission of building robust Core Infrastructure for Operating Systems, Networking, Clustering, and Containerization. The opportunity to work on advanced Cluster Monitoring and Management for Rubrik's SaaS platform, along with developing high-performance, scalable, and resilient system infrastructure services, aligns perfectly with my career aspirations in systems engineering.
+
+The challenge of diagnosing and resolving problems in complex customer environments, combined with the responsibility of building the backbone that powers Rubrik's solutions, is exactly the type of impactful work I am seeking. I am eager to contribute my experience in distributed systems, performance optimization (achieving 30% improvement in my previous role), and infrastructure development to help advance Rubrik's platform.
+
+I would welcome the opportunity to discuss how my strong problem-solving abilities, systems engineering experience, and passion for learning new technologies can contribute to the Forge team's success. Thank you for considering my application.
+
+Sincerely,
+
+Raghu Raj Sodani

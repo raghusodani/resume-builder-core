@@ -1,0 +1,52 @@
+Raghu Raj Sodani
++91-9928486320
+sodaniraghuraj@gmail.com
+linkedin.com/in/raghu-raj-sodani
+github.com/raghusodani
+
+[Date]
+
+Hiring Manager
+Gameplay Services - Online Backend
+Electronic Arts
+India
+
+Dear Hiring Manager,
+
+I am writing to express my strong interest in the Software Engineer II position for EA's Online Backend Gameplay Services team. As a Software Development Engineer at Amazon in Hyderabad, I design and implement scalable, distributed backend systems that serve 100,000+ daily users with a focus on high performance and stability. With 2.5+ years of professional experience building mission-critical services, I am excited about the opportunity to contribute to creating next-level entertainment experiences for millions of EA players worldwide.
+
+Amazon Experience - Building Scalable Backend Systems:
+
+Currently at Amazon, I design brand new backend services covering all aspects from storage to application logic to management systems. I work extensively with distributed systems architecture, serving 100K+ daily users—experience that directly translates to EA's scale of powering online features for millions of players. My work involves optimizing performance and scalability of server systems, ensuring high availability and low latency, which are critical for the seamless multiplayer gaming experiences EA delivers.
+
+I am part of the full product cycle at Amazon—from gathering requirements and designing solutions to coding, testing, deploying features to production, and supporting LIVE environments. I maintain a comprehensive suite of automated tests using JUnit that validate the correctness of our backend services, integrated into our CI/CD pipelines. This approach to quality and reliability mirrors EA's emphasis on ensuring stable experiences for players worldwide.
+
+Technical Skills & Cloud Infrastructure:
+
+My experience with AWS cloud computing products includes EC2, Lambda, S3, RDS, and DynamoDB—I understand cloud-native architecture and have worked with Docker for containerization. I have strong experience with both relational (PostgreSQL, MySQL) and NoSQL databases (MongoDB, DynamoDB), essential for building the diverse backend services EA's gameplay platform requires.
+
+While my primary professional programming has been with Java, Python, and JavaScript/TypeScript rather than Go, C#, or C++, my strong foundation in object-oriented programming and systems design positions me to transition effectively. Java and C# share many similarities as object-oriented languages, and my experience building high-performance backend services with Java Spring demonstrates the skills needed for enterprise backend development. I am a motivated self-starter with a proven track record of quickly mastering new technologies—I've successfully learned and deployed GraphQL, various AWS services, and complex distributed systems architectures within tight timelines at Amazon.
+
+Performance Optimization & Problem Solving:
+
+At Amazon, I continuously research and select best-of-breed technologies to meet challenging requirements. I've optimized server performance through efficient algorithms and architecture improvements. Prior to Amazon, at MAQ Software, I achieved 30% performance improvement through stress testing, performance tuning, and optimization techniques—directly applicable to EA's need for optimizing matchmaking and gameplay services performance.
+
+My strong knowledge of algorithms and data structures enables me to solve complex technical problems effectively. I've architected data pipelines handling high-throughput data processing across distributed systems, ensuring data integrity and system reliability—skills essential for building services like matchmaking, stats, leaderboards, and game networking that millions of players depend on.
+
+Collaboration & Technical Excellence:
+
+I excel at collaborating with engineers across teams. At Amazon, I led a JDK17 migration involving coordination with multiple teams, demonstrating strong communication skills and ability to advocate for best practices within the engineering organization. I work closely with product managers to gather requirements, design solutions, and deliver features that support business objectives while maintaining technical excellence.
+
+Why EA:
+
+EA's mission to create next-level entertainment experiences for millions of players worldwide resonates deeply with my experience building large-scale systems at Amazon. I am particularly excited about the challenge of optimizing matchmaking and online gameplay services—these are fascinating technical problems involving distributed systems, real-time processing, and performance optimization at massive scale. The opportunity to work on services integrated into EA's biggest titles and enjoyed by millions of players daily is exactly the kind of impactful work that motivates me.
+
+I am highly motivated to learn Go, C#, or C++ as needed for this role. My experience with Java, Python, and JavaScript/TypeScript demonstrates my ability to work across multiple programming paradigms, and I am confident I can quickly become productive in EA's technology stack while bringing my proven expertise in distributed systems, cloud architecture, and backend engineering.
+
+I would welcome the opportunity to discuss how my Amazon experience building scalable backend systems at massive scale, combined with my strong problem-solving abilities and eagerness to master new technologies, can contribute to EA's mission of creating amazing and immersive online gaming experiences. Thank you for considering my application.
+
+Sincerely,
+
+Raghu Raj Sodani
+Software Development Engineer
+Amazon, Hyderabad

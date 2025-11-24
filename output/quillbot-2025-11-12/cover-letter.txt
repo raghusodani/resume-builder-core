@@ -1,0 +1,44 @@
+Raghu Raj Sodani
++91-9928486320
+sodaniraghuraj@gmail.com
+linkedin.com/in/raghu-raj-sodani
+github.com/raghusodani
+
+[Date]
+
+Hiring Manager
+Growth Apps Team
+QuillBot
+India
+
+Dear Hiring Manager,
+
+I am writing to express my strong interest in the Software Development Engineer 2 position on QuillBot's Growth Apps team. As someone passionate about using technology to help people communicate effectively and create beautifully, I am excited about the opportunity to join a company that helps 56 million people around the world write, design, code, and collaborate at the speed of thought.
+
+Perfect Technical Stack Alignment:
+
+Your position requires strong hands-on experience with JavaScript/TypeScript, ReactJS, and NodeJS—this describes my core technical expertise perfectly. With 2.5+ years of professional experience, I have built scalable full-stack applications using this exact technology stack. At Amazon, I designed and developed customer service systems using ReactJS with TypeScript frontends and NodeJS/Spring backends integrated with GraphQL APIs, serving 100K+ daily users globally. This experience directly translates to QuillBot's scale—building systems that impact millions of users requires the same focus on performance, scalability, and quality that I've demonstrated throughout my career.
+
+Growth-Focused Engineering Experience:
+
+I excel at building features that directly drive growth metrics. My work has consistently focused on user engagement and retention—from architecting data-driven systems that optimize user experience to implementing features that improve conversion. At MAQ Software, I optimized application performance by 30%, directly impacting user retention metrics. I understand that growth engineering is about rapid iteration, experimentation, and data-informed decision-making. My experience taking ownership of end-to-end delivery—from requirements gathering through implementation, testing, deployment, and monitoring—aligns perfectly with QuillBot's need for engineers who can drive growth initiatives independently.
+
+While my direct experience with A/B testing frameworks like Amplitude or Mixpanel is developing, my strong foundation in building data-driven systems positions me to quickly master these tools. My Codechef 5-star rating (2040), placing me in the top 0.5% of programmers globally, demonstrates my exceptional problem-solving skills and ability to take ownership and deliver in ambiguous situations—exactly what QuillBot values.
+
+Startup Mindset & Collaboration:
+
+I thrive in fast-paced, experiment-driven environments. My experience collaborating closely with product managers, designers, and data engineers to deliver measurable results mirrors QuillBot's cross-functional approach. I've contributed to engineering best practices through code reviews, testing strategies, and automation, and I'm passionate about staying updated on modern frontend and backend technologies to continuously improve development speed and user experience. I've built rapid prototypes and proofs-of-concept for quick iteration—essential for growth experimentation.
+
+Why QuillBot Excites Me:
+
+QuillBot's mission to make the path from inspiration to execution more accessible resonates deeply with me. Having helped build systems for 100K+ users at Amazon, I understand the responsibility and opportunity that comes with serving millions globally. The Growth Apps team's focus on new tool development, retention, monetization, and internationalization presents exactly the kind of challenging, impactful work that motivates me. I'm particularly excited about working on features that help students and professionals communicate effectively—technology that genuinely improves people's lives.
+
+I am highly willing to learn, adapt, and move fast. My track record shows I excel at mastering new technologies quickly—whether it was learning GraphQL integrations, implementing complex data pipelines, or leading system migrations. I bring strong communication skills, a collaborative spirit, and a genuine passion for building products that millions of people rely on daily.
+
+Based in India and ready for hybrid/remote work, I would welcome the opportunity to discuss how my full-stack expertise in JavaScript/TypeScript/React/NodeJS, combined with my problem-solving abilities and growth-focused engineering approach, can help accelerate QuillBot's mission of helping people create great things.
+
+Thank you for considering my application. I look forward to the possibility of contributing to QuillBot's continued growth and impact.
+
+Sincerely,
+
+Raghu Raj Sodani

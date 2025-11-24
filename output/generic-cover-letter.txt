@@ -1,0 +1,53 @@
+Raghu Raj Sodani
+Software Development Engineer
++91-9928486320
+sodaniraghuraj@gmail.com
+linkedin.com/in/raghu-raj-sodani
+github.com/raghusodani
+
+[Date]
+
+Dear Hiring Manager,
+
+I am a passionate Software Development Engineer with 2.5+ years of professional experience building scalable, high-performance applications that serve 100,000+ users daily. Currently based in Hyderabad, India, I am writing to express my strong interest in software engineering opportunities where I can contribute my expertise in full-stack development, system design, and problem-solving.
+
+Technical Background:
+
+I bring a versatile technical skill set spanning both frontend and backend technologies. My expertise includes JavaScript/TypeScript, Python, Java, React, Node.js, and Spring/SpringBoot, with strong proficiency in cloud platforms (AWS) and modern development practices. I have hands-on experience with various databases including PostgreSQL, MongoDB, MySQL, and DynamoDB, and I'm well-versed in DevOps practices including CI/CD pipelines, Docker, and Jenkins.
+
+Professional Experience:
+
+Currently, I work as a Software Development Engineer at Amazon, where I have designed and developed end-to-end customer service systems using React frontends with TypeScript and Spring-based Java backends integrated with GraphQL APIs. I architected a data pipeline from DynamoDB to Amazon Data Lake, incorporating transformation and validation layers to ensure data integrity across distributed systems. I also led a JDK17 migration campaign across 28 packages, conducting code reviews and providing technical guidance to cross-functional teams.
+
+Prior to Amazon, I worked at MAQ Software where I led the migration of an enterprise application from AngularJS to React with TypeScript, optimizing performance by 30% through efficient algorithms and data structure implementations. I began my career with an internship at Amazon, where I developed GraphQL APIs and React UI components, building a strong foundation in full-stack development.
+
+What Sets Me Apart:
+
+My competitive programming achievements demonstrate my exceptional problem-solving abilities. I hold a Codechef 5-star rating (2040), placing me in the top 0.5% of programmers globally. This achievement, combined with my INMO 2019 scholarship (Indian National Mathematics Olympiad) and published research in optimization algorithms at IDAMS 2022 (Springer Lecture Notes), showcases my strong foundation in computer science fundamentals, data structures, and algorithms.
+
+Technical Projects:
+
+Beyond my professional work, I have developed impactful projects including a navigation system for ISRO utilizing geo-spatial data and implementing graph-based pathfinding algorithms optimized for performance. This project demonstrated my ability to apply theoretical knowledge to solve real-world problems with practical constraints.
+
+My Approach to Software Engineering:
+
+I am a strong believer in writing clean, maintainable code and following best practices. I thrive in collaborative environments where I can both learn from experienced engineers and mentor others. My approach combines technical excellence with a focus on business impact—I always strive to understand how my work contributes to the larger product vision and customer experience.
+
+I am particularly drawn to roles that offer:
+• Complex technical challenges requiring innovative solutions
+• Opportunities to work with modern technologies and scalable architectures
+• Collaborative team environments that value continuous learning
+• Impact on products used by millions of users
+• Growth opportunities in system design and technical leadership
+
+I am a fast learner with a proven track record of quickly mastering new technologies and contributing meaningfully to projects. My experience spans startups and large tech companies, giving me the adaptability to thrive in various engineering cultures. I bring a strong ownership mindset, taking full responsibility for my work from design through deployment and maintenance.
+
+I would welcome the opportunity to discuss how my technical skills, problem-solving abilities, and passion for building exceptional software can contribute to your team's success. I am open to roles in full-stack development, backend engineering, frontend engineering, or system design, and I am excited about opportunities that allow me to grow as an engineer while making significant technical contributions.
+
+Thank you for considering my application. I look forward to the possibility of contributing to innovative projects and being part of a team that builds products that matter.
+
+Sincerely,
+
+Raghu Raj Sodani
+Software Development Engineer
+Hyderabad, India

@@ -1,0 +1,108 @@
+\documentclass[10pt,letterpaper]{article}
+
+% Quick Wins Optimizations:
+% 1. Roboto font (modern, compact)
+% 2. Tighter margins
+% 3. Tighter spacing throughout
+% 4. Two-column skills section
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[sfdefault]{roboto}  % ✅ Roboto font - modern & compact
+\usepackage{geometry}
+\geometry{left=1cm, right=1cm, top=1cm, bottom=0.8cm}  % ✅ Tighter margins
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{multicol}  % ✅ For two-column skills
+
+\definecolor{IFBlue}{HTML}{0F6688}
+\definecolor{IFDarkBlue}{HTML}{00425C}
+
+\hypersetup{colorlinks=true, urlcolor=IFDarkBlue, pdfborder={0 0 0}}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Custom commands with optimized spacing
+\newcommand{\namesection}[2]{
+    \begin{center}
+        {\Huge\textbf{#1}}\\[0.3em]  % ✅ Reduced from 0.5em
+        {\large\textit{#2}}
+    \end{center}
+    \vspace{0.4em}  % ✅ Reduced from 0.5em
+}
+
+\newcommand{\contactinfo}[1]{
+    \begin{center}
+        #1
+    \end{center}
+    \vspace{0.6em}  % ✅ Reduced from 1em
+}
+
+\newcommand{\sectiontitle}[1]{
+    \vspace{0.5em}  % ✅ Reduced from 0.8em
+    {\Large\textbf{\color{IFBlue}#1}}
+    \vspace{0.2em}  % ✅ Reduced from 0.3em
+    \hrule
+    \vspace{0.3em}  % ✅ Reduced from 0.5em
+}
+
+\newcommand{\experience}[4]{
+    \textbf{#1} \hfill #3\\
+    \textit{#2}
+    #4
+    \vspace{0.3em}  % ✅ Reduced from 0.5em
+}
+
+\begin{document}
+
+% ============= PLACEHOLDER CONTENT =============
+% This template will be populated with tailored content
+
+\namesection{[NAME]}{[TAGLINE]}
+
+\contactinfo{
+    [EMAIL] $\cdot$ [PHONE] $\cdot$ 
+    \href{[LINKEDIN_URL]}{LinkedIn: [LINKEDIN]} $\cdot$ 
+    \href{[GITHUB_URL]}{GitHub: [GITHUB]}
+}
+
+\sectiontitle{Experience}
+
+% Experience entries go here
+
+\sectiontitle{Projects}
+
+% Projects go here
+
+\sectiontitle{Education}
+
+% Education goes here
+
+\sectiontitle{Publications}
+
+% Publications go here
+
+\sectiontitle{Skills}
+
+% ✅ TWO-COLUMN SKILLS SECTION
+\begin{multicols}{2}
+\noindent\textbf{Languages}: [LANGUAGES]
+
+\noindent\textbf{Frameworks}: [FRAMEWORKS]
+
+\columnbreak
+
+\noindent\textbf{Cloud}: [CLOUD]
+
+\noindent\textbf{Databases}: [DATABASES]
+\end{multicols}
+
+\vspace{-0.3em}  % Reduce space after multicols
+\noindent\textbf{Other Skills}: [OTHER]
+
+\sectiontitle{Achievements}
+
+% Achievements go here
+
+\end{document}
